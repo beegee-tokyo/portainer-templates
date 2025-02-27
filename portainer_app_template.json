@@ -4,7 +4,7 @@
   "templates": [
     {
       "categories": [
-        "Other"
+        "BG"
       ],
       "description": "Portainer Community Edition (CE) is a powerful, open source toolset that allows you to easily build and manage containers in Docker, Docker Swarm, Kubernetes and Azure ACI.",
       "post_up_info": "Visit https://{host-ip}:9443 to access the web interface.\nDeafault username: admin\nDefault password: changeme",
@@ -38,7 +38,7 @@
     },
     {
       "categories": [
-        "LoRaWAN"
+        "BG"
       ],
       "description": "The ChirpStack open-source LoRaWAN Network Server stack provides open-source components for LoRaWAN networks.",
       "post_up_info": "Browse to http://{host-ip}:8080 to access the web interface (might take a few seconds to boot). \nDefault username: admin\nDefault password: admin\nCheck https://www.chirpstack.io/docs/ for for more details.",
@@ -142,7 +142,7 @@
     },
 	{
 		"categories": [
-			"Home Automation"
+			"BG"
 		],
 		"description": "Node-RED is a flow-based development tool for visual programming.",
 		"post_up_info": "Browse to http://{host-ip}:1880 to access the web interface.\nCheck https://nodered.org/docs/getting-started/docker for Node-RED docker quick start guide.",
@@ -192,7 +192,7 @@
 	},
 	{
       "categories": [
-        "LoRaWAN"
+        "BG"
       ],
       "description": "The Things Stack LNS establishes a data connection between a LoRa Basics™ Station gateway and a Network Server (in this case, The Things Stack).",
       "post_up_info": "Point your browser to the first local IP of the device or to the domain name (if you have defined one) using HTTPS to access the web interface.\nDefault username: admin\nDefault password: changeme\nCheck https://github.com/xoseperez/the-things-stack-docker for more details.",
@@ -232,7 +232,7 @@
     },
     {
       "categories": [
-        "Other"
+        "BG"
       ],
       "description": "Eclipse Mosquitto is an open source implementation of a server for versions 5, 3.1.1, and 3.1 of the MQTT protocol.",
       "post_up_info": "Check https://hub.docker.com/_/eclipse-mosquitto for Eclipse-Mosquitto Dockerhub quick reference.",
@@ -279,7 +279,7 @@
     },
     {
       "categories": [
-        "Data visualization"
+        "BG"
       ],
       "description": "Grafana is a multi-platform open source analytics and interactive visualization web application.",
       "post_up_info": "Browse to http://{host-ip}:3000 to access the web interface.\nDefault username: admin\nDefault password: admin\nCheck https://grafana.com/docs/grafana/latest/installation/docker/ for quick reference of running Grafana Docker image.",
@@ -327,7 +327,7 @@
     },
     {
       "categories": [
-        "Database"
+        "BG"
       ],
       "description": "InfluxDB is a time series database built from the ground up to handle high write and query loads.",
       "post_up_info": "Check https://hub.docker.com/_/influxdb for InfluxDB Dockerhub quick reference.",
@@ -413,7 +413,7 @@
     },
     {
       "categories": [
-        "Other"
+        "BG"
       ],
       "description": "Docker Registry is a stateless, highly scalable server side application that stores and lets you distribute Docker images.",
       "post_up_info": "Quick reference:\n1. Pull(or build some image from the hub, e.g., ubuntu)\ndocker pull ubuntu\n2. Tag the image so that it points to your registry\ndocker image tag ubuntu localhost:5000/myfirstimage\n3. Push it\ndocker push localhost:5000/myfirstimage\n4. Pull it back\n docker pull localhost:5000/myfirstimage ",
